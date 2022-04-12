@@ -1,0 +1,25 @@
+.heading-color{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .link-container{
+    list-style: none;
+    
+    display: flex;
+  
+  }
+  .nav-links{
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
