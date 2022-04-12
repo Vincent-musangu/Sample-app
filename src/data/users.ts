@@ -1,11 +1,11 @@
-export interface Iuser {
+export interface IUser {
   id?: number;
-  name: string;
+  name?: string;
   age?: number;
   email?: string;
 }
 
-export const users: Iuser[] = [
+export const users: IUser[] = [
   {
     id: 1,
     name: "John Doe",
